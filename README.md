@@ -12,6 +12,10 @@ int sum = 0;
 for (int rank = 0; rank < size; rank++) 
 sum += matrix[row * size + rank] * matrix[rank * size + column]; 
 res_matrix[row * size + column] = sum; } }
+
+![image](https://user-images.githubusercontent.com/90069453/208177110-d48f5b64-63f5-4177-b9a5-4f6a5ab06b5b.png)
+
+
 | Метод                     | 10 мб | 20 мб | 30 мб | 50 мб  | 100 мб |
 |---------------------------|-------|-------|-------|--------|--------|
 | Последовательный алгоритм | 800   | 1400  | 1950  | 3680   | 6140   |
